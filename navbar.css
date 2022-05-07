@@ -12,21 +12,27 @@
 .menu-bar li{
  color: black;   
 }
+.menu-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
 .menu-bar ul 
 {
     display: inline-flex;
     list-style: none;
     background: transparent;
     color: black;
+    text-align: center;
 }
 a{
     text-decoration: none;
     color: black;
 }
 .menu-bar ul li{
-    width: 110px;
+    width: 90px;
     margin: 12.5px;
     padding: 12.5px;
+    font-size: 13px
 }
 
 .menu-bar ul li a{
@@ -69,5 +75,6 @@ a{
 #search{
     height: 18px;
     width: 18px;
-    
+    margin-right: 90px;
+    text-align: center;
 }
