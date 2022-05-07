@@ -12,9 +12,12 @@
     
 }
 
-
+.menu-bar{
+    margin-bottom: 50px;
+}
 #smart
 {
+    margin-top: 80px;
     width: 1000px;
     margin: auto;
 }
@@ -105,15 +108,20 @@
     width: 100%;
     
 }
-.tables>span
+.tables{
+    display: flex;
+    justify-content:flex-start;
+}
+.tables>div
 {
+    margin-right: 5px;
     font-size: 10px;
     text-align: center;
     padding: 5px 10px;
     border: 1px solid #ddd;
     font-weight: 400;
 }
-.tables>span:hover
+.tables>div:hover
 {
     color: white;
     background-color: black;

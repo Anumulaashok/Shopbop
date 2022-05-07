@@ -14,6 +14,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=PT+Serif:wght@400;700&family=Roboto:wght@300&family=Work+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="navbar.css" />
+<link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+
     <style>
         .material-symbols-sharp {
           font-variation-settings:
@@ -22,14 +26,267 @@
           'GRAD' 200,
           'opsz' 40
         }
+        *{
+    margin: 0;
+    padding: 0;
+}
+#navi{
+    width: 100%;
+}
 
+#get{
+   justify-content: center;
+   /* border: 1mm solid red; */
+   width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.menu-bar>ul >li{
+    justify-content: space-around;
+}
+.menu-bar li{
+ color: black;   
+}
+.menu-bar ul 
+{
+    
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: inline-flex;
+    list-style: none;
+    background: transparent;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar>ul>li>a{
+    font-size: 12px;
+    margin: 12.5px;
+
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+  
+}
+.what,.menu-bar ul li:hover
+{
+  background: transparent;
+  border-radius: 3px;
+}
+
+.sub-menu-1
+{
+    display: none;
+
+}
+.menu-bar>ul>li>div{
+   color: white;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to right,rgb(205, 200, 200),10%, rgb(112, 115, 114),10%,rgb(205, 200, 200));
+    
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+    /* color: white; */
+}
+.menu-bar ul li:hover .sub-menu-1 ul a:hover
+{   
+
+    /* color: grey; */
+    color: white;
+}
+
+#search{
+    height: 18px;
+    width: 18px;
+    
+}
         </style>
-</head>
-<body>
 
+</head>
+ <body >
+     <div id="navi">
+    <div id ="get">
+        <a href="https://www.shopbop.com/">
+        <img class="logo" src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"
+        alt="Shopbop" 
+      </a>
+    </div>
+
+
+
+    <div class="menu-bar">
+    <ul>
+   <li class="what"> <a href="#">  WHAT'S NEW</a>
+   <div class="sub-menu-1">
+       <ul>
+        <li><a href="mens.html">new Today</a></li>
+        <li><a href="mens.html">New This Week</a></li>
+        <li><a href="mens.html">Top Sellers</a></li>
+        <li><a href="mens.html">Designer Boutique</a></li>
+        <li><a href="mens.html">All What's New</a></li>
+       </ul>
+    </div>
+   </li>
+   <li><a href="#">OUR FAVORITES</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Spring</a></li>
+         <li><a href="mens.html">AAPI </a></li>
+         <li><a href="mens.html">Black</a></li>
+         <li><a href="mens.html">Black In Stock</a></li>
+         <li><a href="mens.html">Caroline's</a></li>
+         <li><a href="mens.html">Designer</a></li>
+         <li><a href="mens.html">Editor's</a></li>
+         <li><a href="mens.html">ShopBop Exclusives</a></li>
+         <li><a href="mens.html">Top Seller</a></li>
+        </ul>
+     </div>
+     
+</li>
+
+   <li><a href="#">DESIGNER</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">A B C D E</a></li>
+         <li><a href="mens.html">F G H I J</a></li>
+         <li><a href="mens.html">K L M N O</a></li>
+         <li><a href="mens.html">P Q R S T</a></li>
+         <li><a href="mens.html">U V W X Y </a></li>
+         <li><a href="mens.html">Z #</a></li>
+         <li><a href="mens.html">Designer Boutique index</a></li>
+        </ul>
+     </div>
+
+</li>
+
+   <li><a href="#">CLOTHING</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">activewear & Loungewear</a></li>
+         <li><a href="mens.html">Coat</a></li>
+         <li><a href="mens.html">Dresses</a></li>
+         <li><a href="mens.html">Jackets</a></li>
+         <li><a href="mens.html">Jeans</a></li>
+         <li><a href="mens.html">Jumpsuits</a></li>
+         <li><a href="mens.html">Lingerie</a></li>
+         <li><a href="mens.html">Matching</a></li>
+         <li><a href="mens.html">Pants</a></li>
+         <li><a href="mens.html">Shorts</a></li>
+         <li><a href="mens.html">Skirts</a></li>
+         <li><a href="mens.html">Sleepwear</a></li>
+         <li><a href="mens.html">Sweaters</a></li>
+         <li><a href="mens.html">Tops</a></li>
+         <li><a href="mens.html">Swimsuits</a></li>
+        </ul>
+     </div>
+
+</li>
+
+   <li><a href="#">ACTIVE</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Dresses & Jumpsuits</a></li>
+         <li><a href="mens.html">Leggings</a></li>
+         <li><a href="mens.html">Matching Sets</a></li>
+         <li><a href="mens.html">Sweatpants</a></li>
+         <li><a href="mens.html">Tops</a></li>
+        </ul>
+     </div>
+</li>
+
+   <li><a href="#">SHOES</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Boots</a></li>
+         <li><a href="mens.html">Flats</a></li>
+         <li><a href="mens.html">Pumps</a></li>
+         <li><a href="mens.html">Sandals</a></li>
+         <li><a href="mens.html">All shoes</a></li>
+        </ul>
+     </div>
+</li>
+   
+   <li><a href="#">BAGS</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Backpacks</a></li>
+         <li><a href="mens.html">Belt bag</a></li>
+         <li><a href="mens.html">Clutches</a></li>
+         <li><a href="mens.html">Cross body </a></li>
+         <li><a href="mens.html">mini bag</a></li>
+         <li><a href="mens.html">Totes</a></li>
+         <li><a href="mens.html">Wallets</a></li>
+         <li><a href="mens.html">Satchels</a></li>
+         <li><a href="mens.html">All Bags</a></li>
+        </ul>
+     </div>
+</li>
+
+   <li><a href="#">ACCESSORIES</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Belts</a></li>
+         <li><a href="mens.html">Gloves</a></li>
+         <li><a href="mens.html">Hair accessories </a></li>
+         <li><a href="mens.html">Scarves</a></li>
+         <li><a href="mens.html">Wraps</a></li>
+         <li><a href="mens.html">Socks</a></li>
+         <li><a href="mens.html">Travel</a></li>
+         <li><a href="mens.html">Sunglasses</a></li>
+        </ul>
+     </div>
+</li>
+
+   <li><a href="#">MEN</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">Clothing</a></li>
+         <li><a href="mens.html">shoes</a></li>
+         <li><a href="mens.html">Bags</a></li>
+         <li><a href="mens.html">Accessories</a></li>
+         <li><a href="mens.html">sale</a></li>
+         <li><a href="mens.html">Shop All</a></li>
+        </ul>
+     </div>
+</li>
+
+   <li><a href="#">SALE</a>
+    <div class="sub-menu-1">
+        <ul>
+         <li><a href="mens.html">All Sale</a></li>
+         <li><a href="mens.html">New to Sale</a></li>
+         <li><a href="mens.html">20% Off</a></li>
+         <li><a href="mens.html">30% Off</a></li>
+         <li><a href="mens.html">40% Off</a></li>
+         <li><a href="mens.html">50% Off-final Sale</a></li>
+         <li><a href="mens.html">60% Off & Over-final sale</a></li>
+        </ul>
+     </div>
+
+     <li id="search"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg></a></li>
+</li>
+ </ul>
+</div>
+</div>
+
+<!-- navbar path ended -->
 <!-- mens Clothing -->
 <div>
-    <body >
+   
         <div id="smart">
         <div class="labal">Mens / Clothing</div>
         <!-- for box -->
@@ -49,16 +306,16 @@
                         <div id="gen"  class="bolder"></div>
                         <h1 class="head">Club Monaco</h1>
                         <p>Short Sleeve Pique Tee</p>
-                        <div id="price" class="bolder margintopp">89</div>
+                        <div id="price" class="bolder margintopp"></div>
                         <p class="margintopp" >Color: Off White</p>
                        <div class="circle"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSew4li0Z48KiiJFTCWewf3ExRT9i-uPWcgWA&usqp=CAU" alt=""></div> 
                         <div class="margintopp botm size">Men's Sizes</div>
-                      <div  class="tables pointing"> 
-                         <span>S</span>
-                         <span>M</span>
-                         <span>L</span>
-                         <span>XL</span>
-                         <span>XXL</span>
+                      <div id="sizes" class="tables pointing"> 
+                         <div>S</div>
+                         <div>M</div>
+                         <div>L</div>
+                         <div>XL</div>
+                         <div>XXL</div>
                     </div>
                         <div class="fromtop">Cut true to size. </div>
                         <p class="margintopp line">For a classic/regular fit,buy your normal size. See <u><b> Size Convesions</b></u> </p>
@@ -134,5 +391,4 @@
 </body>
 </html>
 <script src="product.js"></script>
-
 
