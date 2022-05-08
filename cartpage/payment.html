@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #paymentgate{
+            width: 440px;
+            height: 400px;
+            margin: auto;
+            margin-top: 80px;
+            /* margin-bottom: -20px; */
+            padding: 80px;
+            background-color: pink;
+            justify-content: center;
+        }
+        #cod{
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 25px;
+            background-color: white;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            color :gray;
+        }
+        button:hover,img:hover{
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        }
+        img{
+            margin-right: 30px;
+        }
+        button+button{
+            margin-right: 30px;
+        }
+        div>img+button{
+            margin-top: -200px;
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="paymentgate">
+<h1>Please selecte Payment Method</h1>
+<div><img  style="width: 200px ; height:90px;" src="https://tse4.mm.bing.net/th?id=OIP.G7toZ7n6x4b8o5wrtsK6HAHaC3&pid=Api&P=0&w=456&h=176"/>
+<button onclick="functioncard()">Card</button></div>
+<br>
+<div style="margin-top:-20px;"><img style="margin-top: 1px; width: 200px;" src="https://tse2.mm.bing.net/th?id=OIP.ppAXKqoA6s3y6sGN0UIKkwHaEv&pid=Api&P=0&w=286&h=183" alt="">
+    <button >UPI</button></div>
+<div style="display: flex;" ><button id="cod" > Cash On Delivery</button><button onclick="functioncod()" style="width: 45px;height: 20px;margin-left:2px;margin-top:50px;">COD</button></div>
+
+
+
+
+    </div>
+</body>
+</html>
+<script>
+    function functioncard(){
+        window.location.href="gateway.html"
+    }
+    function functioncod(){
+        window.location.href="homepage.html"
+    }
+</script>

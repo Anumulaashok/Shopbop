@@ -139,3 +139,4 @@ function dellefunction(smart,i){
     window.location.reload();
 
 }
+// -----boxesss--
