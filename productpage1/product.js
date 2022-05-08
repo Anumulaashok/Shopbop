@@ -78,7 +78,12 @@ var disc=document.querySelector("#gen+h1+p");
 disc.innerText=Data1.info;
 
 var pric=document.querySelector("#price");
-pric.innerText=Data1.price;
+var span1=document.createElement("span");
+span1.innerText="$ ";
+var span2=document.createElement("span");
+span2.innerText=Data1.price;
+
+pric.append(span1,span2)
 
 var colar=document.querySelector("#price+p")
 colar.innerText=Data1.color;
@@ -92,21 +97,6 @@ buto.addEventListener("click",function(){
 })
 
 
-
-
-
-
-
-var cart=JSON.parse(localStorage.getItem("cartdata"))||[];
-
-
-function buttonfunction(el){
-  console.log(el)
-  cart.push(el);
-localStorage.setItem("cartdata",JSON.stringify(cart))
-alert("Item Added to Cart");
-// window.location.reload();
-}
 
 
 
@@ -295,6 +285,7 @@ div2.addEventListener("click",function(){
 card.append(div2);
 
 })
+// JSON.parse(localStorage.getItem("product"))||
 
 var pass=JSON.parse(localStorage.getItem("product"))||{}
 function myfunction(car){
@@ -302,6 +293,7 @@ function myfunction(car){
 pass=car
 
 localStorage.setItem("product",JSON.stringify(pass));
+window.scrollTo(0,0);
 window.location.reload();
 
 
@@ -376,3 +368,50 @@ price1.innerText=car.price;
 div2.append(ima,nam1,pars,price1)
 card.append(div2);
 })
+
+
+
+
+
+
+
+
+
+// <--size part-->
+var cart=JSON.parse(localStorage.getItem("cartdata"))||[];
+var bool=false
+var svalue;
+var sizes=document.querySelectorAll("#sizes>div")
+    for(var i=0;i<sizes.length;i++){
+        sizes[i].addEventListener("click",sizefunction)
+    }
+    function sizefunction(){
+    
+        var sizesvalue=(event.target.innerText)
+        svalue=sizesvalue
+            bool=true
+        console.log(sizesvalue)
+        } 
+
+
+//------add to cart part---->
+
+function buttonfunction(el){
+
+    console.log(el)
+    if(bool==false){
+        alert("Please select size")
+    }
+    else if(bool==true){
+     el["sizes"]=(svalue);
+    cart.push(el);
+    localStorage.setItem("cartdata",JSON.stringify(cart))
+    alert("Item Added to Cart");
+    window.location.reload();
+   
+    }
+
+
+}
+
+
