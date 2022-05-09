@@ -97,6 +97,203 @@ buto.addEventListener("click",function(){
 })
 
 
+var data1=[  {
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/zsupp/zsupp307851c925/zsupp307851c925_1649513065533_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3065010366/efact3065010366_1646254385314_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3065010366/efact3065010366_1646254385314_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3065010366/efact3065010366_1646254385314_2-0._UX357_QL90_.jpg",
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3065010366/efact3065010366_1646254385314_2-0._UX357_QL90_.jpg" ,
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"English Factory",
+    info:"Tied Detail Top",
+    color:"color:Lilac",
+    price:"80.00"
+    
+
+},
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv209141d665/leviv209141d665_1643906534419_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv209141d665/leviv209141d665_1643906534419_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv209141d665/leviv209141d665_1643906534419_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv209141d665/leviv209141d665_1643906534419_2-0._UX357_QL90_.jpg",
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv209141d665/leviv209141d665_1643906534419_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"Levi's",
+    info:"No Stone Unturned Overalls",
+    color:"color:No Stone Unturned",
+    price:"128.00"
+},
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sundr/sundr3208813301/sundr3208813301_1650921389760_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sundr/sundr3208813301/sundr3208813301_1650921389760_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sundr/sundr3208813301/sundr3208813301_1650921389760_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sundr/sundr3208813301/sundr3208813301_1650921389760_2-0._UX357_QL90_.jpg",
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sundr/sundr3208813301/sundr3208813301_1650921389760_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"SUNDRY",
+    info:"Stripe Button Down",
+    color:"color:Spruce",
+    price:"168.00"
+},
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4555513799/madew4555513799_1644957563642_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4555513799/madew4555513799_1644957563642_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4555513799/madew4555513799_1644957563642_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4555513799/madew4555513799_1644957563642_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4555513799/madew4555513799_1644957563642_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"Madewell",
+    info:"Square Neck Tiered Midi Dress In Textured Seersucker",
+    color:"color:Fig",
+    price:"138.00"
+} ,
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314411cde9/rails314411cde9_1649372804048_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314411cde9/rails314411cde9_1649372804048_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314411cde9/rails314411cde9_1649372804048_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314411cde9/rails314411cde9_1649372804048_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314411cde9/rails314411cde9_1649372804048_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"RAILS",
+    info:"Whitney Shirt",
+    color:"color:Cut Out Fruits",
+    price:"148.00"
+
+}  ,
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/velve/velve416091c925/velve416091c925_1651523518190_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/velve/velve416091c925/velve416091c925_1651523518190_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/velve/velve416091c925/velve416091c925_1651523518190_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/velve/velve416091c925/velve416091c925_1651523518190_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/velve/velve416091c925/velve416091c925_1651523518190_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"Velvet",
+    info:"Yara Blouse ",
+    color:"color:White",
+    price:"158.00"
+},      
+{
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/blank/blank410561d654/blank410561d654_1644534568682_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/blank/blank410561d654/blank410561d654_1644534568682_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/blank/blank410561d654/blank410561d654_1644534568682_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/blank/blank410561d654/blank410561d654_1644534568682_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/blank/blank410561d654/blank410561d654_1644534568682_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"BLANKNYC",
+    info:"Once In A Lifetime Cropped Shacket",
+    color:"color:Once In A Lifetime",
+    price:"128.00"
+},   
+ {
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ffull/ffull3055771441/ffull3055771441_1644346485454_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ffull/ffull3055771441/ffull3055771441_1644346485454_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ffull/ffull3055771441/ffull3055771441_1644346485454_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ffull/ffull3055771441/ffull3055771441_1644346485454_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ffull/ffull3055771441/ffull3055771441_1644346485454_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"FAITHFULL THE BRAND",
+    info:"Kiera Skirt ",
+    color:"color:Plain Black",
+    price:"169.00"
+}, 
+   {
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/minkp/minkp413391c1b3/minkp413391c1b3_1643224246251_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/minkp/minkp413391c1b3/minkp413391c1b3_1643224246251_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/minkp/minkp413391c1b3/minkp413391c1b3_1643224246251_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/minkp/minkp413391c1b3/minkp413391c1b3_1643224246251_2-0._UX357_QL90_.jpg",
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/minkp/minkp413391c1b3/minkp413391c1b3_1643224246251_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:" MINKPINK",
+    info:"Celestine Smock Dress",
+    color:"color:White",
+    price:"89.00"
+},  
+  {
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/faher/faher30396102ca/faher30396102ca_1635890962983_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/faher/faher30396102ca/faher30396102ca_1635890962983_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/faher/faher30396102ca/faher30396102ca_1635890962983_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/faher/faher30396102ca/faher30396102ca_1635890962983_2-0._UX357_QL90_.jpg",
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/faher/faher30396102ca/faher30396102ca_1635890962983_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"Faherty",
+    info:"Willa Top",
+    color:"color:White",
+    price:"158.00"
+
+},  
+  {
+    image_url1:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mwlbm/mwlbm30066156dd/mwlbm30066156dd_1649956421837_2-0._UX357_QL90_.jpg",
+    image_url2:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mwlbm/mwlbm30066156dd/mwlbm30066156dd_1649956421837_2-0._UX357_QL90_.jpg",
+    image_url3:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mwlbm/mwlbm30066156dd/mwlbm30066156dd_1649956421837_2-0._UX357_QL90_.jpg",
+    image_url4:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mwlbm/mwlbm30066156dd/mwlbm30066156dd_1649956421837_2-0._UX357_QL90_.jpg" ,
+    image_url5:"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mwlbm/mwlbm30066156dd/mwlbm30066156dd_1649956421837_2-0._UX357_QL90_.jpg",
+    gender: "WOMEN",
+    size:`Women's Sizes`,
+    heading:"MWL by Madewell",
+    info:"Dori Romper",
+    color:"color:True Black",
+    price:"65.00" 
+}];
+
+
+var card=document.querySelector("#box");
+
+data1.forEach(function(car){
+
+var div2=document.createElement("div");
+
+
+var ima=document.createElement("img");
+
+ima.setAttribute("src",car.image_url1);
+
+var nam1=document.createElement("h2");
+nam1.innerText=car.heading;
+
+var pars=document.createElement("p");
+pars.innerText=car.info
+
+var price1=document.createElement("h4");
+var spa1=document.createElement("span");
+spa1.innerText="$ "
+var spa2=document.createElement("span");
+spa2.innerText=car.price
+price1.append(spa1,spa2)
+
+
+
+div2.append(ima,nam1,pars,price1)
+div2.addEventListener("click",function(){
+  myfunction(car)
+})
+card.append(div2);
+
+})
+// JSON.parse(localStorage.getItem("product"))||
+
+var pass=JSON.parse(localStorage.getItem("product"))||{}
+function myfunction(car){
+
+pass=car
+
+localStorage.setItem("product",JSON.stringify(pass));
+window.scrollTo(0,0);
+window.location.reload();
+
+
+
+}
+
 
 
 
@@ -415,3 +612,7 @@ function buttonfunction(el){
 }
 
 
+function carthtml(){
+    window.location.href="cart.html";
+
+}
