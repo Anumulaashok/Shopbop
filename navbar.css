@@ -8,13 +8,12 @@
   
   #navi{
   width: 100%;
-  margin-top: -10px;
+  margin-top: -10px; 
   /* margin-bottom:200px; */
   }
   
   #get{
   justify-content: center;
-  /* border: 1mm solid red; */
   width: 100%;
   text-align: center;
   margin: auto;
